@@ -8,8 +8,7 @@ import Layout from './Components/Layout/Layout';
 function App ()
 {
   return (
- <Swipeable>
-     
+
     <Layout>
       <Routes>
         <Route path='/' element={ <AllMeetUpsPage /> } />
@@ -17,7 +16,6 @@ function App ()
         <Route path='/favorites' element={ <FavoritesPage /> } />
       </Routes>
     </Layout>
- </Swipeable>
   );
 }
 
