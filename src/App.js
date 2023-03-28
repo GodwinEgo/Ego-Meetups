@@ -8,7 +8,6 @@ import Layout from './Components/Layout/Layout';
 function App ()
 {
   return (
-
     <Layout>
       <Routes>
         <Route path='/' element={ <AllMeetUpsPage /> } />

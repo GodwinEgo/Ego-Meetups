@@ -13,7 +13,7 @@ function AllMeetUpsPage ()
   {
     setIsLoading( true );
     fetch(
-      'https://meet-up-app-13adf-default-rtdb.firebaseio.com/meetups.json'
+      'https://react-ego-meetup-default-rtdb.firebaseio.com/meetups.json'
     )
       .then( ( response ) =>
       {
