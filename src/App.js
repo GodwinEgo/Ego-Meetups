@@ -11,7 +11,7 @@ function App ()
     <Layout>
       <Routes>
         <Route path='/' element={ <AllMeetUpsPage /> } />
-        <Route path='/new-meetup' element={ <NewMeetUpPage /> } />
+        <Route path='/ne-meetup' element={ <NewMeetUpPage /> } />
         <Route path='/favorites' element={ <FavoritesPage /> } />
       </Routes>
     </Layout>
